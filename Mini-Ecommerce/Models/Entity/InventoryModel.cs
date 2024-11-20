@@ -2,7 +2,7 @@
 
 public class InventoryModel
 {
-    public int InventoryId { get; set; }
+    public int Id { get; set; }
     public int ProductId { get; set; }
     public int Stock { get; set; }
     public int LowStockAlert { get; set; }
