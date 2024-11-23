@@ -14,4 +14,7 @@ public class UserModel
     public string Document { get; set; }
     public int PhoneNumber { get; set; }
     public DateOnly DateOfBirth { get; set; }
+    public ICollection<AddressModel> Addresses { get; set; }
+    public ICollection<OrderModel> Orders { get; set; }
+    public CartModel Cart { get; set; }
 }
